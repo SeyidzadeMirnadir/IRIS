@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://use.fontawesome.com/ea3dccb2cf.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=latin-ext" rel="stylesheet">
+    <title>IRIS</title>
+</head>
+<body>  
+    <section id="header">
+        <div class="container-fluid">
+          <div class="row">
+                <div class="col-md-2">
+                        <img src="images/logo.png" alt="IRIS">
+                </div>
+                <div class="col-md-10">
+                    <div class="user-name push-right">
+                        <span>Mirsaleh Məmmədhüseynzadə</span>  <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    </div>
+                    <div class="user-image push-right">
+                        <img src="images/user.jpg " alt="">
+                    </div>
+                    <div class="notification push-right"><i class="fa fa-bell" aria-hidden="true"></i></div>
+                </div>
+          </div>
+        </div>
+    </section>
+    <section id="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2">
+                    <ul class=" list-group ">
+                        <li class="list-items"> <a href="#" ><i class="fa fa-users" aria-hidden="true"></i>İşçilər</a> <i class="fa fa-angle-left push-right" aria-hidden="true"></i></li>
+                        <ul class="alt-list">
+                            <li><a><i class="fa fa-plus" aria-hidden="true"></i>Əlavə Et</a></li>
+                            <li><a><i class="fa fa-users" aria-hidden="true"></i>Bütün İşçilər</a></li>
+                        </ul>
+                        <li class="list-items"> <a href="#" ><i class="fa fa-building" aria-hidden="true"></i>Departamentlər</a> <i class="fa fa-angle-left push-right" aria-hidden="true"></i></li>
+                        <ul class="alt-list">
+                            <li><a><i class="fa fa-plus" aria-hidden="true"></i>Əlavə Et</a></li>
+                            <li><a><i class="fa fa-building" aria-hidden="true"></i>Bütün Departamentlər</a></li>
+                        </ul>
+                        <li class="list-items"> <a href="#" ><i class="fa fa-address-book" aria-hidden="true"></i>Davamiyyət</a> <i class="fa fa-angle-left push-right" aria-hidden="true"></i></li>
+                        <li class="list-items"> <a href="#" ><i class="fa fa-money" aria-hidden="true"></i>Əmək Haqqı</a> <i class="fa fa-angle-left push-right" aria-hidden="true"></i></li>
+                    </ul>
+                </div>
+                <div class="col-md-10" id = "addEmployee">
+                    <div class="row">
+                        <div class="body">  
+                            <div class="col-md-12">
+                                <div class="row" >   
+                                    <div class="oneAdd">
+                                            <h1> Əlavə et</h1>   
+                                    </div> 
+                                </div>
+                                <div class="row">    
+                                    <div class="col-md-12"> 
+                                        <div class="row">   
+                                            <div class="header_list">   
+                                                <ul class=" list-group" >
+                                                    <li > Şəxsin Məlumatları</li>
+                                                    <li > Şirkət Məlumatları</li>
+                                                    <li > Sənədlər</li>
+                                                    <li > Bank Məlumatları</li>
+                                                    <li > Hesab Məlumatları</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="row">  
+                                            <div class="body_all">
+                                                <div class="personal_information">
+                                                        <div class="col-md-12">
+                                                            <div class="row">
+                                                                <div class="col-md-7">
+                                                                    <div class="row">   
+                                                                        <form>
+                                                                            <div class="form-group row">
+                                                                                <label for="example-text-input" class="col-3 col-form-label">Ad:</label>
+                                                                                <div class="col-8">
+                                                                                    <input class="form-control" type="text"  id="example-text-input">
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="form-group row">
+                                                                                <label for="example-text-input" class="col-3 col-form-label">Soyad:</label>
+                                                                                <div class="col-8">
+                                                                                    <input class="form-control" type="text"  id="example-text-input">
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="form-group row">
+                                                                                <label for="example-text-input" class="col-3 col-form-label">Ata adı:</label>
+                                                                                <div class="col-8">
+                                                                                    <input class="form-control" type="text"  id="example-text-input">
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="form-group row">
+                                                                                <label for="example-date-input" class="col-3 col-form-label">Doğum tarixi</label>
+                                                                                <div class="col-8">
+                                                                                    <input class="form-control" type="date"  id="example-date-input">
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="form-group row">
+                                                                                <label for="example-text-input" class="col-3 col-form-label">Qeydiyyat ünvan:</label>
+                                                                                <div class="col-8">
+                                                                                    <input class="form-control" type="text"  id="example-text-input">
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="form-group row">
+                                                                                <label for="example-text-input" class="col-3 col-form-label">Hazırkı ünvan:</label>
+                                                                                <div class="col-8">
+                                                                                    <input class="form-control" type="text"  id="example-text-input">
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="form-group row">
+                                                                                <label for="example-tel-input" class="col-3 col-form-label">Əlaqə nömrəsi</label>
+                                                                                <div class="col-8">
+                                                                                    <input class="form-control" type="tel"  id="example-tel-input">
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="form-group row">
+                                                                                <label for="example-tel-input" class="col-3 col-form-label">Əlaqə nömrəsi 2</label>
+                                                                                <div class="col-8">
+                                                                                    <input class="form-control" type="tel" id="example-tel-input">
+                                                                                </div>
+                                                                            </div>
+                                                                            
+                                                                            <div class="form-group row">
+                                                                                <label for="example-email-input" class="col-3 col-form-label">E-mail</label>
+                                                                                <div class="col-8">
+                                                                                    <input class="form-control" type="email" id="example-email-input">
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="form-group row">
+                                                                                <label for="example-text-input" class="col-3 col-form-label">Cinsi:</label>
+                                                                                <div class="col-8">
+                                                                                    <input class="form-control" type="text"  id="example-text-input">
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="form-group row">
+                                                                                <label for="example-text-input" class="col-3 col-form-label">Təhsili:</label>
+                                                                                <div class="col-8">
+                                                                                    <input class="form-control" type="text"  id="example-text-input">
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="form-group row">
+                                                                                <label for="example-text-input" class="col-3 col-form-label">Ümumi staj:</label>
+                                                                                <div class="col-8">
+                                                                                    <input class="form-control" type="text"  id="example-text-input">
+                                                                                </div>
+                                                                            </div>
+                                                                            
+                                                                        </form>
+                                                                    </div>
+                                                                </div> 
+                                                                <div class="col-md-3">
+                                                                    <div class="row picture"> 
+                                                                        <img src="images/user.jpg" alt="Profil picture">
+                                                                        <div class="form-group row">
+                                                                            <label for="exampleInputFile" class="col-5 col-form-label">Şəxsin şəkli:</label>
+                                                                            <div class="col-7">
+                                                                                <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+                                                                                <small id="fileHelp" class="form-text ">Şəkili bu hissəyə qeyd edin </small>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    
+                                                </div>   <!--  end div class = "personal_information" -->
+
+                                                <div class="company_information">
+                                                    <form>
+                                                        <div class="form-group row">
+                                                            <label for="example-text-input" class="col-2 col-form-label">İşçi İD:</label>
+                                                            <div class="col-5">
+                                                                <input class="form-control" type="text" value="" id="example-text-input">
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group row">
+                                                            <label for="example-text-input" class="col-2 col-form-label">Departament:</label>
+                                                            <div class="col-5">
+                                                                <input class="form-control" type="text" value="" id="example-text-input">
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group row">
+                                                            <label for="example-text-input" class="col-2 col-form-label">Şöbə:</label>
+                                                            <div class="col-5">
+                                                                <input class="form-control" type="text" value="" id="example-text-input">
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group row">
+                                                            <label for="example-text-input" class="col-2 col-form-label">Vəzifə:</label>
+                                                            <div class="col-5">
+                                                                <input class="form-control" type="text" value="" id="example-text-input">
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group row">
+                                                            <label for="example-date-input" class="col-2 col-form-label">Qeydiyyat tarixi</label>
+                                                            <div class="col-5">
+                                                                <input class="form-control" type="date" value="2011-08-19" id="example-date-input">
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group row">
+                                                            <label for="example-text-input" class="col-2 col-form-label">Əmək haqqı:</label>
+                                                            <div class="col-5">
+                                                                <input class="form-control" type="text" value="" id="example-text-input">
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div> <!--  end div class = "company_information" -->
+
+                                                <div class="documents">
+                                                    <form>
+                                                        <div class="form-group row">
+                                                            <label for="exampleInputFile" class="col-2 col-form-label">CV sənədi:</label>
+                                                            <div class="col-5">
+                                                                <input type="file"  class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+                                                                <small id="fileHelp" class="form-text ">İşə qəbul olunan şəxsin CV-ni bu hissəyə qeyd edin </small>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group row">
+                                                            <label for="exampleInputFile" class="col-2 col-form-label">Digər sənəd:</label>
+                                                            <div class="col-5">
+                                                                <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+                                                                <small id="fileHelp" class="form-text ">Sənədi bu hissəyə qeyd edin </small>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div> <!--  end div class = "Documents" -->
+
+                                                <div class="bank_information">
+                                                    <form>
+                                                        <div class="form-group row">
+                                                            <label for="example-text-input" class="col-2 col-form-label">Bank:</label>
+                                                            <div class="col-5">
+                                                                <input class="form-control" type="text" value="" id="example-text-input">
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group row">
+                                                            <label for="example-text-input" class="col-2 col-form-label">Bank:</label>
+                                                            <div class="col-5">
+                                                                <input class="form-control" type="text" value="" id="example-text-input">
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group row">
+                                                            <label for="example-text-input" class="col-2 col-form-label">Bank:</label>
+                                                            <div class="col-5">
+                                                                <input class="form-control" type="text" value="" id="example-text-input">
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div><!--  end div class = "bank_information" -->
+                                                <div class="access_information">
+                                                    <form>
+                                                        <div class="form-group row">
+                                                            <label for="example-text-input" class="col-2 col-form-label">Hesab:</label>
+                                                            <div class="col-5">
+                                                                <input class="form-control" type="text" value="" id="example-text-input">
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group row">
+                                                            <label for="example-text-input" class="col-2 col-form-label">Hesab:</label>
+                                                            <div class="col-5">
+                                                                <input class="form-control" type="text" value="" id="example-text-input">
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group row">
+                                                            <label for="example-text-input" class="col-2 col-form-label">Hesab:</label>
+                                                            <div class="col-5">
+                                                                <input class="form-control" type="text" value="" id="example-text-input">
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div><!--  end div class = "bank_information" -->
+
+                                            </div>     <!-- end  class =  body_all -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <!--  end   class = "body" div -->
+                    </div>  
+                </div> <!--  end   id= add_employe div -->
+            </div>
+        </div>  <!--  end   end container-fluid -->
+    </section>
+    
+
+
+    <script src  = "js/jquery-3.2.1.min.js"></script>
+    <!-- <script src  = "js/bootstrap.min.js"></script> -->
+    <script src  = "js/script.js"></script>
+</body>
+</html>

@@ -1,3 +1,52 @@
+#addEmployee .row .body {
+  width: 100%;
+  margin: 10px;
+  border-radius: 10px;
+  border: 2px solid white; }
+  #addEmployee .row .body .col-md-12 .row .oneAdd {
+    background-color: #4A4F50;
+    color: rgba(235, 242, 241, 0.26);
+    width: 100%;
+    border-bottom: solid 2px white;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 20px;
+    padding: 10px  0 0 10px; }
+  #addEmployee .row .body .col-md-12 .row .col-md-12 .row .header_list {
+    margin-bottom: 5px; }
+    #addEmployee .row .body .col-md-12 .row .col-md-12 .row .header_list ul {
+      flex-direction: row; }
+      #addEmployee .row .body .col-md-12 .row .col-md-12 .row .header_list ul li {
+        cursor: pointer;
+        margin-left: 15px;
+        color: black; }
+        #addEmployee .row .body .col-md-12 .row .col-md-12 .row .header_list ul li:hover {
+          color: white;
+          text-decoration: underline; }
+        #addEmployee .row .body .col-md-12 .row .col-md-12 .row .header_list ul li:first-child {
+          color: white; }
+  #addEmployee .row .body .col-md-12 .row .col-md-12 .row .body_all {
+    width: 100%;
+    background: white;
+    padding-top: 5px; }
+    #addEmployee .row .body .col-md-12 .row .col-md-12 .row .body_all > div {
+      display: none; }
+      #addEmployee .row .body .col-md-12 .row .col-md-12 .row .body_all > div form {
+        width: 100%; }
+        #addEmployee .row .body .col-md-12 .row .col-md-12 .row .body_all > div form div {
+          margin: 0; }
+          #addEmployee .row .body .col-md-12 .row .col-md-12 .row .body_all > div form div label {
+            margin-left: 30px; }
+    #addEmployee .row .body .col-md-12 .row .col-md-12 .row .body_all .personal_information {
+      display: block;
+      width: 100%; }
+      #addEmployee .row .body .col-md-12 .row .col-md-12 .row .body_all .personal_information .picture {
+        padding-left: 100px; }
+        #addEmployee .row .body .col-md-12 .row .col-md-12 .row .body_all .personal_information .picture img {
+          width: 300px;
+          height: 300px; }
+        #addEmployee .row .body .col-md-12 .row .col-md-12 .row .body_all .personal_information .picture .form-group {
+          margin-top: 15px; }
+
 body {
   font-family: 'Roboto Condensed', sans-serif; }
 
@@ -63,7 +112,6 @@ body {
   padding-left: 0;
   padding-right: 0; }
   #content .row .col-md-2 .list-group {
-    padding-left: 10px;
     padding-top: 30px; }
     #content .row .col-md-2 .list-group .list-items {
       display: inline-block;
