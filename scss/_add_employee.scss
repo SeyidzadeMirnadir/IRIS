@@ -1,52 +1,55 @@
+.MyBorder{
+    border: 1px solid #8b9cad;
+}
 #addEmployee{
     .row{
         .body{
-            width: 100%;
-            margin: 10px;
+            font-family: Tahoma,Verdana,Segoe,sans-serif;
+            font-size: 15px;
+            margin: 15px;
             border-radius: 10px;
-            border:2px solid white;
+            width: 100%;
             .col-md-12{
                 .row{
                     .oneAdd{
-                        background-color: #4A4F50;
-                        color: rgba(235, 242, 241, 0.26);
                         width: 100%;
-                        border-bottom: solid 2px white;
+                        height: 50px;
                         border-radius: 10px 10px 0 0 ; 
-                        margin-bottom: 20px;
-                        padding: 10px  0 0 10px;
-                        h1{
-                            //text-align: center;
-                        }
+                        background: #8b9cad;
+                        font-size: 32px;
+                        color: #2c3e50;
+                        font-family: Tahoma,Verdana,Segoe,sans-serif;
+                        padding-left: 15px;
                     }
                     .col-md-12{
                         .row{
                             .header_list{
-                                //width: 100%;
                                 margin-bottom: 5px;
+                                padding: 14px;
+                                text-align: center;
+                                width: 100%;
+                                
                                 ul{
-                                    //display: inline-flex;
                                     flex-direction: row;
+                                    text-align: center;
+                                    padding-left: 16%;
                                     li{
                                         cursor: pointer;
                                         margin-left: 15px;
-                                        color: black;
+                                        color: #34495e;;
                                         &:hover{
-                                            color: white;
+                                            color: #546D86;
                                             text-decoration: underline;
                                         }
                                         &:first-child{
-                                            color: white;
+                                            color: #546D86;;
                                         }
-                                       
-                
                                     }
-                
                                 }
                             }
                             .body_all{
                                 width: 100%;
-                                background: white;
+                                background:transparent;
                                 padding-top: 5px;
                                 >div{
                                     display: none;
@@ -66,24 +69,19 @@
                                     width: 100%;
 
                                     .picture{
-                                        padding-left: 100px;
+                                        //padding-left: 100px;
                                         img{
                                             width: 300px;
                                             height: 300px
-                                            
                                         }
                                         .form-group{
                                             margin-top: 15px;
-
                                         }
                                     }
-                                    
                                 }
                                 .company_information{
-                                  
                                 }
                                 .documents{
-                                 
                                 }
                             }
                         }
