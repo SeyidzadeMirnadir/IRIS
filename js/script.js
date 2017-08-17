@@ -13,8 +13,11 @@ $("#content .list-items").click(function(event){
 })
 
 $("#addEmployee .header_list .list-group li").click(function(event){
-    $("#addEmployee .header_list .list-group li").css("color","black");
-    $(this).css("color","white");
+    // $("#addEmployee .header_list .list-group li").css("font-weight","normal");
+    // $(this).css("font-weight","600");
     $("#addEmployee .body_all>div").css("display","none");
     $("#addEmployee .body_all>div").eq($("#addEmployee .header_list .list-group li").index($(this)) ).css("display","block");
 })    
+
+
+
