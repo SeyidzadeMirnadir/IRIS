@@ -1,6 +1,6 @@
 .MyBorder {
-  border: 1px solid #8b9cad;
-  height: 500px; }
+  border: 1px solid #9e9e9e;
+  min-height: 525px; }
 
 #addEmployee .row .body {
   font-family: Tahoma,Verdana,Segoe,sans-serif;
@@ -8,38 +8,39 @@
   margin: 15px;
   border-radius: 10px;
   width: 100%; }
+  #addEmployee .row .body h4 {
+    margin: 0; }
   #addEmployee .row .body .col-md-12 .row .oneAdd {
     width: 100%;
-    height: 30px;
-    background: #8b9cad;
+    background: #9e9e9e;
     font-size: 18px;
-    color: #2c3e50;
+    color: #212121;
     font-family: Tahoma,Verdana,Segoe,sans-serif;
-    padding-left: 15px; }
+    padding: 15px 15px; }
   #addEmployee .row .body .col-md-12 .row .col-md-12 .row .header_list {
-    padding: 14px;
-    text-align: center;
     width: 100%;
-    margin-left: 26px;
-    margin-top: 20px;
     margin-bottom: 30px;
-    font-size: 14px; }
+    font-size: 14px;
+    background: #bdbdbd;
+    color: #212121; }
     #addEmployee .row .body .col-md-12 .row .col-md-12 .row .header_list ul {
       flex-direction: row;
       text-align: center; }
       #addEmployee .row .body .col-md-12 .row .col-md-12 .row .header_list ul button {
         width: 140px;
-        height: 50px;
+        height: 40px;
         cursor: pointer;
         background: transparent;
-        border: 1px solid #909ead;
+        border: none;
         border-bottom-color: transparent;
-        margin-left: 2px; }
+        color: #212121; }
+        #addEmployee .row .body .col-md-12 .row .col-md-12 .row .header_list ul button:first-child {
+          background: #e0e0e0; }
         #addEmployee .row .body .col-md-12 .row .col-md-12 .row .header_list ul button:focus {
           outline: 0; }
         #addEmployee .row .body .col-md-12 .row .col-md-12 .row .header_list ul button li {
           cursor: pointer;
-          color: #2c3e50; }
+          color: #212121; }
   #addEmployee .row .body .col-md-12 .row .col-md-12 .row .body_all {
     width: 100%;
     background: transparent;
@@ -51,14 +52,16 @@
         #addEmployee .row .body .col-md-12 .row .col-md-12 .row .body_all > div form .form-group {
           margin: 0; }
           #addEmployee .row .body .col-md-12 .row .col-md-12 .row .body_all > div form .form-group label {
-            margin-left: 30px; }
+            margin-left: 5px;
+            font-size: 13px; }
           #addEmployee .row .body .col-md-12 .row .col-md-12 .row .body_all > div form .form-group .form-control {
-            border: 0;
-            margin-bottom: 10px;
-            padding: 8px;
-            font-size: 13px;
-            margin-top: 5px;
-            border: 1px solid #35393e; }
+            margin-bottom: 8px;
+            padding: 4px;
+            font-size: 12px;
+            margin-top: 4px;
+            border: 1px solid #757575;
+            color: black;
+            border-radius: 0.25rem; }
     #addEmployee .row .body .col-md-12 .row .col-md-12 .row .body_all .personal_information {
       display: block;
       width: 100%; }
@@ -77,17 +80,19 @@
 
 .col-md-10 .row .col-md-12 .row .table-header {
   width: 100%;
-  height: 30px;
-  background: #8b9cad;
+  height: 56px;
+  background: #9e9e9e;
   font-size: 18px;
-  color: #2c3e50;
+  color: #212121;
   font-family: Tahoma,Verdana,Segoe,sans-serif;
-  padding-left: 15px;
+  padding: 15px 15px;
   margin: 15px 15px 0 15px; }
+  .col-md-10 .row .col-md-12 .row .table-header h4 {
+    margin: 0; }
 .col-md-10 .row .col-md-12 .row .table-container {
   width: 100%;
-  height: 500px;
-  border: 1px solid #8b9cad;
+  min-height: 525px;
+  border: 1px solid #9e9e9e;
   margin: 0px 15px 15px 15px;
   padding: 5px; }
   .col-md-10 .row .col-md-12 .row .table-container .table-container-row {
@@ -110,7 +115,7 @@
             background: #35393e;
             color: white;
             width: 100px;
-            padding: 6px 0 6px 0;
+            padding: 5px 0 5px 0;
             cursor: pointer;
             border: 0;
             transition-duration: 0.2s; }
@@ -119,15 +124,18 @@
             .col-md-10 .row .col-md-12 .row .table-container .table-container-row .col-md-12 .row .col-md-6:nth-child(1) button:hover {
               background: #485059; }
             .col-md-10 .row .col-md-12 .row .table-container .table-container-row .col-md-12 .row .col-md-6:nth-child(1) button i {
-              padding-left: 5px;
+              padding-left: 10px;
               font-size: 11px;
               opacity: 0.9; }
         .col-md-10 .row .col-md-12 .row .table-container .table-container-row .col-md-12 .row .col-md-6:nth-child(2) input {
-          border: 0;
-          border-radius: 3px;
-          padding: 5px 3px 5px 10px;
-          width: 35%;
-          border: 1px solid #35393e; }
+          margin-bottom: 8px;
+          padding: 4px;
+          font-size: 12px;
+          margin-top: 4px;
+          border: 1px solid #757575;
+          color: black;
+          border-radius: 0.25rem;
+          margin-top: 0; }
           .col-md-10 .row .col-md-12 .row .table-container .table-container-row .col-md-12 .row .col-md-6:nth-child(2) input:focus {
             outline: 0; }
         .col-md-10 .row .col-md-12 .row .table-container .table-container-row .col-md-12 .row .col-md-6:nth-child(2) button {
@@ -135,7 +143,7 @@
           background: #35393e;
           color: white;
           width: 40px;
-          padding: 6px 0 6px 0;
+          padding: 5px 0 5px 0;
           cursor: pointer;
           border: 0;
           transition-duration: 0.2s; }
@@ -149,7 +157,7 @@
     width: 100%; }
     .col-md-10 .row .col-md-12 .row .table-container .all-employee tr th, .col-md-10 .row .col-md-12 .row .table-container .all-employee tr td {
       font-family: Tahoma,Verdana,Segoe,sans-serif;
-      border: 1px solid #9aa9b8;
+      border: 1px solid #ababab;
       min-width: 50px; }
     .col-md-10 .row .col-md-12 .row .table-container .all-employee tr th {
       padding: 10px;
@@ -185,17 +193,17 @@
 
 .col-md-10 #allDepartment .col-md-12 .row .table-header {
   width: 100%;
-  height: 30px;
-  background: #8b9cad;
+  height: 56px;
+  background: #9e9e9e;
   font-size: 18px;
-  color: #2c3e50;
+  color: #212121;
   font-family: Tahoma,Verdana,Segoe,sans-serif;
-  padding-left: 15px;
+  padding: 15px 15px;
   margin: 15px 15px 0 15px; }
 .col-md-10 #allDepartment .col-md-12 .row .table-container {
   width: 100%;
-  height: 500px;
-  border: 1px solid #8b9cad;
+  height: 525px;
+  border: 1px solid #9e9e9e;
   margin: 0px 15px 15px 15px;
   padding: 5px; }
   .col-md-10 #allDepartment .col-md-12 .row .table-container .table-container-row {
@@ -218,7 +226,7 @@
             background: #35393e;
             color: white;
             width: 100px;
-            padding: 6px 0 6px 0;
+            padding: 5px 0 5px 0;
             cursor: pointer;
             border: 0;
             transition-duration: 0.2s; }
@@ -231,11 +239,14 @@
               font-size: 11px;
               opacity: 0.9; }
         .col-md-10 #allDepartment .col-md-12 .row .table-container .table-container-row .col-md-12 .row .col-md-6:nth-child(2) input {
-          border: 0;
-          border-radius: 3px;
-          padding: 5px 3px 5px 10px;
-          width: 35%;
-          border: 1px solid #35393e; }
+          margin-bottom: 8px;
+          padding: 4px;
+          font-size: 12px;
+          margin-top: 4px;
+          border: 1px solid #757575;
+          color: black;
+          border-radius: 0.25rem;
+          margin-top: 0; }
           .col-md-10 #allDepartment .col-md-12 .row .table-container .table-container-row .col-md-12 .row .col-md-6:nth-child(2) input:focus {
             outline: 0; }
         .col-md-10 #allDepartment .col-md-12 .row .table-container .table-container-row .col-md-12 .row .col-md-6:nth-child(2) button {
@@ -243,7 +254,7 @@
           background: #35393e;
           color: white;
           width: 40px;
-          padding: 6px 0 6px 0;
+          padding: 5px 0 5px 0;
           cursor: pointer;
           border: 0;
           transition-duration: 0.2s; }
@@ -257,7 +268,7 @@
     width: 100%; }
     .col-md-10 #allDepartment .col-md-12 .row .table-container .all-employee tr th, .col-md-10 #allDepartment .col-md-12 .row .table-container .all-employee tr td {
       font-family: Tahoma,Verdana,Segoe,sans-serif;
-      border: 1px solid #9aa9b8;
+      border: 1px solid #ababab;
       min-width: 50px; }
     .col-md-10 #allDepartment .col-md-12 .row .table-container .all-employee tr th {
       padding: 10px;
@@ -292,7 +303,8 @@
           background: #485059; }
 
 .MyBorder {
-  border: 1px solid #8b9cad; }
+  border: 1px solid #9e9e9e;
+  min-height: 525px; }
 
 #addDepartment .row .body {
   font-family: Tahoma,Verdana,Segoe,sans-serif;
@@ -300,30 +312,35 @@
   margin: 15px;
   border-radius: 10px;
   width: 100%; }
+  #addDepartment .row .body h4 {
+    margin: 0; }
   #addDepartment .row .body .col-md-12 .row .oneAdd {
     width: 100%;
-    height: 30px;
-    background: #8b9cad;
+    background: #9e9e9e;
     font-size: 18px;
-    color: #2c3e50;
+    color: #212121;
     font-family: Tahoma,Verdana,Segoe,sans-serif;
-    padding-left: 15px; }
+    padding: 15px 15px; }
   #addDepartment .row .body .col-md-12 .row .col-md-12 .row .body_all {
     width: 100%;
     background: transparent;
     padding-top: 12px; }
     #addDepartment .row .body .col-md-12 .row .col-md-12 .row .body_all > div form {
-      width: 100%; }
+      width: 100%;
+      margin-top: 30px; }
       #addDepartment .row .body .col-md-12 .row .col-md-12 .row .body_all > div form .form-group {
         margin: 0; }
         #addDepartment .row .body .col-md-12 .row .col-md-12 .row .body_all > div form .form-group label {
-          margin-left: 30px; }
+          margin-left: 5px;
+          font-size: 13px; }
         #addDepartment .row .body .col-md-12 .row .col-md-12 .row .body_all > div form .form-group .form-control {
-          border: 0;
-          margin-bottom: 10px;
-          padding: 8px;
-          font-size: 13px;
-          border: 1px solid #35393e; }
+          margin-bottom: 8px;
+          padding: 4px;
+          font-size: 12px;
+          margin-top: 4px;
+          border: 1px solid #757575;
+          color: black;
+          border-radius: 0.25rem; }
       #addDepartment .row .body .col-md-12 .row .col-md-12 .row .body_all > div form button {
         border-radius: 5px;
         background: #35393e;
@@ -355,7 +372,8 @@
         padding: 6px 0 6px 0;
         cursor: pointer;
         border: 0;
-        transition-duration: 0.2s; }
+        transition-duration: 0.2s;
+        margin-left: 28px; }
         #addDepartment .row .body .col-md-12 .row .col-md-12 .row .body_all > div .add_new button:focus {
           outline: 0; }
         #addDepartment .row .body .col-md-12 .row .col-md-12 .row .body_all > div .add_new button:hover {
@@ -385,7 +403,7 @@ body {
 #header {
   width: 100%;
   height: 60px;
-  background: #2c3e50; }
+  background: #37474f; }
   #header .container-fluid .col-md-2 img {
     height: 45px;
     width: 150px;
@@ -401,7 +419,7 @@ body {
       padding-left: 4px;
       margin-top: 15px;
       margin-right: 12px;
-      background: #B4C6D8;
+      background: #E7EEF5;
       border-radius: 100%;
       transition-duration: 0.4s;
       cursor: pointer; }
@@ -416,7 +434,7 @@ body {
       border-radius: 3px;
       margin-right: 5px; }
     #header .container-fluid .col-md-10 .user-name {
-      color: #B4C6D8;
+      color: #E7EEF5;
       font-family: 'Roboto', sans-serif;
       font-size: 13px;
       padding-top: 13px;
@@ -436,7 +454,7 @@ body {
         cursor: pointer; }
 
 #content .row .col-md-2 {
-  background: #34495e;
+  background: #455a64;
   padding-left: 0;
   padding-right: 0; }
   #content .row .col-md-2 .list-group {
@@ -444,13 +462,13 @@ body {
     #content .row .col-md-2 .list-group .list-items {
       display: inline-block;
       height: 40px;
-      border-bottom: 1px solid #415D78;
+      border-bottom: 1px solid #546e7a;
       padding-left: 20px;
       padding-top: 8px;
       cursor: pointer;
       transition-duration: 0.4s; }
       #content .row .col-md-2 .list-group .list-items:hover {
-        background: #3D566F; }
+        background: #546e7a; }
       #content .row .col-md-2 .list-group .list-items a {
         text-decoration: none;
         color: #E7EEF5;
@@ -467,13 +485,13 @@ body {
       display: none; }
       #content .row .col-md-2 .list-group .alt-list li {
         height: 40px;
-        border-bottom: 1px solid #415D78;
+        border-bottom: 1px solid #546e7a;
         padding-left: 45px;
         padding-top: 8px;
         cursor: pointer;
         transition-duration: 0.4s; }
         #content .row .col-md-2 .list-group .alt-list li:hover {
-          background: #3D566F; }
+          background: #546e7a; }
         #content .row .col-md-2 .list-group .alt-list li i {
           opacity: 0.6;
           padding-right: 12px;
@@ -481,12 +499,12 @@ body {
           padding-top: 4px; }
 #content .row .col-md-10 {
   height: 600px;
-  background: #d1dae2; }
+  background: #e0e0e0; }
 
 #footer {
   width: 100%;
   height: 50px;
-  background: #34495e;
+  background: #455a64;
   display: inline-block; }
 
 /*# sourceMappingURL=style.css.map */

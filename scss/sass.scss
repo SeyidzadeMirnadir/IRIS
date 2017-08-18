@@ -2,6 +2,8 @@
 @import "all_employee";
 @import "all_department";
 @import "add_department";
+// @import "mixins";
+
 body{
     font-family: 'Roboto Condensed', sans-serif;
     //font-family: 'Roboto', sans-serif;
@@ -17,7 +19,7 @@ body{
 #header{
     width: 100%;
     height: 60px;
-    background: #2c3e50;
+    background: #37474f;
     .container-fluid{
         .col-md-2{
             img{
@@ -37,7 +39,7 @@ body{
                 padding-left: 4px;
                 margin-top: 15px;
                 margin-right: 12px;
-                background: #B4C6D8;
+                background: #E7EEF5;
                 border-radius: 100%;
                 transition-duration: 0.4s;
                 cursor: pointer;
@@ -58,7 +60,7 @@ body{
                 }
             }
             .user-name{
-                color: #B4C6D8;
+                color: #E7EEF5;
                 font-family: 'Roboto', sans-serif; 
                 font-size: 13px;
                 padding-top:13px;
@@ -86,7 +88,7 @@ body{
 #content{
     .row{
         .col-md-2{
-            background: #34495e;
+            background: #455a64;
             padding-left: 0;
             padding-right:0; 
             .list-group{
@@ -94,13 +96,13 @@ body{
                 .list-items{
                     display: inline-block;
                     height: 40px;
-                    border-bottom: 1px solid #415D78;
+                    border-bottom: 1px solid #546e7a;
                     padding-left: 20px;
                     padding-top:8px;
                     cursor: pointer;
                     transition-duration: 0.4s;
                     &:hover{
-                        background: #3D566F;
+                        background: #546e7a;
                     }
                     a{
                         text-decoration: none;
@@ -121,13 +123,13 @@ body{
                     display: none;
                     li{
                         height: 40px;
-                        border-bottom: 1px solid #415D78;
+                        border-bottom: 1px solid #546e7a;
                         padding-left: 45px;
                         padding-top:8px;
                         cursor: pointer;
                         transition-duration: 0.4s;
                         &:hover{
-                            background: #3D566F;
+                            background: #546e7a;
                         }
                         i{
                             opacity: 0.6;
@@ -141,14 +143,14 @@ body{
         }
         .col-md-10{
             height: 600px;
-            background: #d1dae2;
+            background: #e0e0e0 ;
         }
     }
 }
 #footer{
     width: 100%;
     height: 50px;
-    background: #34495e;
+    background: #455a64;
     display: inline-block;
 
 
