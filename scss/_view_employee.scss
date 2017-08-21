@@ -64,8 +64,15 @@
                                 width: 100%;
                                 background:transparent;
                                 padding-top: 5px;
-                                >div{
-                                    display: none;
+                                .col-md-5{
+                                    >div{
+                                         display: none;
+                                            &:first-child{
+                                            display: block;
+                                        }
+                                    }
+
+                                }
                                     form{
                                         width: 100%;
                                         .form-group{
@@ -99,31 +106,47 @@
                                             }
                                         }
                                     }
-                                }
-                                .personal_information{
-                                    display: block;
-                                    width: 100%;
-                                    .form-control{
-                                        border: 0;
-                                        margin-bottom: 10px;
-                                        padding: 8px;
-                                        font-size: 13px;
-                                        margin-top:5px;
-                                        border: 1px solid #35393e;
-                                    }
                                     .picture{
                                         img{
-                                            width: 35%;
-                                            height: 165px;
+                                            width: 33%;
+                                            height: 202px;
                                             border-radius: 6px;
-                                            margin-left: 18em;
+                                            margin-left: 10em;
+                                            border: 2px dashed black;
+                                            display: block;
+                                        }
+                                        button{
+                                            border-radius: 5px;
+                                            background: #212529;
+                                            color: white;
+                                            padding: 2px 11px;
+                                            cursor: pointer;
+                                            border: 0;
+                                            transition-duration: 0.2s;
+                                            margin-top: 10px;
+                                            margin-left: 19.7em;
+                                            letter-spacing: 0px;
+                                            font-size: 14px;
+                                            &:focus{
+                                                outline:0;
+                                            }
+                                            &:hover{
+                                                background:#485059;
+                                            }
+                                            i{
+                                                padding:0 5px ;
+                                                font-size: 11px;
+                                                opacity: 0.9;
+                                                font-size: 14px;
+                                                margin-left: 4px;
+                                            }
+                                        }
+                                        .save{
+                                            padding: 6px 9px;
+                                            margin-top: 171px;
+                                            margin-left: 21em;
                                         }
                                     }
-                                }
-                                .company_information{
-                                }
-                                .documents{
-                                }
                             }
                         }
                     }

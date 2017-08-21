@@ -2,6 +2,10 @@
 @import "all_employee";
 @import "all_department";
 @import "add_department";
+@import "update_department";
+@import "update_employee";
+@import "view_department";
+@import "view_employee";
 // @import "mixins";
 
 body{
@@ -19,7 +23,7 @@ body{
 #header{
     width: 100%;
     height: 60px;
-    background: #37474f;
+    background: #26282b;
     .container-fluid{
         .col-md-2{
             img{
@@ -88,7 +92,7 @@ body{
 #content{
     .row{
         .col-md-2{
-            background: #455a64;
+            background: #2c3136;
             padding-left: 0;
             padding-right:0; 
             .list-group{
@@ -96,17 +100,24 @@ body{
                 .list-items{
                     display: inline-block;
                     height: 40px;
-                    border-bottom: 1px solid #546e7a;
+                    border-bottom: 1px solid #3b4046;
                     padding-left: 20px;
                     padding-top:8px;
                     cursor: pointer;
                     transition-duration: 0.4s;
                     &:hover{
-                        background: #546e7a;
+                        background: #3b4046;
+                        a{
+                            color:#ffffff;
+                        }
+                        i{
+                            color:#ffffff;
+                            opacity: 1;
+                        }
                     }
                     a{
                         text-decoration: none;
-                        color: #E7EEF5;
+                        color: #d4dce4;
                         font-size: 15px;
                         font-weight: 400;  
                     }
@@ -123,19 +134,32 @@ body{
                     display: none;
                     li{
                         height: 40px;
-                        border-bottom: 1px solid #546e7a;
+                        border-bottom: 1px solid #3b4046;
                         padding-left: 45px;
                         padding-top:8px;
                         cursor: pointer;
                         transition-duration: 0.4s;
                         &:hover{
-                            background: #546e7a;
+                            background: #3b4046;
+                            a{
+                                color:#ffffff;
+                            }
+                            i{
+                                color:#ffffff;
+                                opacity: 1;
+                            }
                         }
                         i{
                             opacity: 0.6;
                             padding-right: 12px;
                             color: #E7EEF5;
                             padding-top: 4px;
+                        }
+                        a{
+                            color: #E7EEF5;
+                            font-size: 15px;
+                            font-weight: 400;
+                            text-decoration: none; 
                         }
                     }
                 }

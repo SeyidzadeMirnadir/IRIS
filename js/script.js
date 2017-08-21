@@ -12,12 +12,18 @@ $("#content .list-items").click(function(event){
          }
 })
 
-$("#addEmployee .header_list .list-group button").click(function(event){
-    $("#addEmployee .header_list .list-group button").css("background","transparent");
+$(".header_list .list-group button").click(function(event){
+    $(".header_list .list-group button").css("background","transparent");
     $(this).css("background","#e0e0e0");
-    $("#addEmployee .body_all>div").css("display","none");
-    $("#addEmployee .body_all>div").eq($("#addEmployee .header_list .list-group button").index($(this)) ).css("display","block");
+    $(".body_all .col-md-5>div").css("display","none");
+    $(".body_all .col-md-5>div").eq($(".header_list .list-group button").index($(this)) ).css("display","block");
 })    
 
-
-
+$(".addSobe").click(function(event) {
+    $(".myForm").append('<div class="form-group row"><label for="example-text-input" class="col-3 col-form-label">Şöbə adı:</label> <div class="col-5 mySobe"><input class="form-control" type="text"  id="example-text-input"></div></div><div class="form-group row"><label for="example-text-input" class="col-3 col-form-label">Bölmə adı:</label><div class="col-5 myBolme"><input class="form-control" type="text"  id="example-text-input"></div><div class="col-2"><div class="row"> <button class="addBolme" type=""><i class="fa fa-plus" aria-hidden="true"></i></button></div></div></div>')
+    return false;
+});
+$(".addBolme").click(function(event) {
+    $(".myBolme").append('<input class="form-control" type="text"  id="example-text-input">')
+    return false;
+});

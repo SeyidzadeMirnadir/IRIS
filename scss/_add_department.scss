@@ -48,16 +48,16 @@
                                             }
                                         }
                                         button{
-                                            border-radius: 5px;
-                                            background: #35393e;
-                                            color: white;
-                                            margin-top: 3px;
-                                            width: 30px;
-                                            padding:2px 0 6px 0; 
-                                            height: 30px;
-                                            cursor: pointer;
-                                            border:0;
-                                            transition-duration: 0.2s;
+                                                border-radius: 5px;
+                                                background: #212529;
+                                                color: white;
+                                                margin-top: 4px;
+                                                width: 30px;
+                                                padding: 0px 0 4px 1px;
+                                                height: 25px;
+                                                cursor: pointer;
+                                                border: 0;
+                                                transition-duration: 0.2s;
                                             &:focus{
                                                 outline:0;
                                             }
@@ -78,14 +78,15 @@
                                         }
                                         button{
                                             border-radius: 5px;
-                                            background: #35393e;
+                                            background: #212529;
                                             color: white;
                                             width: 120px;
                                             padding:6px 0 6px 0; 
                                             cursor: pointer;
                                             border:0;
                                             transition-duration: 0.2s;
-                                            margin-left:28px; 
+                                            margin-left:28px;
+                                            margin-top: 10px; 
                                             &:focus{
                                                 outline:0;
                                             }
@@ -93,8 +94,8 @@
                                                 background:#485059;
                                             }
                                             i{
-                                                padding-left: 7px;
-                                                font-size: 15px;
+                                                padding:0 5px ;
+                                                font-size: 11px;
                                                 opacity: 0.9;
                                             }
                                         }
